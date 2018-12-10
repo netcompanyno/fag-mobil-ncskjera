@@ -7,13 +7,13 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="date"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="95dp" />
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="95dp" tools:text="10. desember" android:textAlignment="center"/>
 
     <TextView
         android:id="@+id/textView"
@@ -24,30 +24,30 @@
         tools:layout_editor_absoluteY="267dp" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="215dp"
-        android:layout_height="49dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="46dp" />
+            android:id="@+id/textView2"
+            android:layout_width="215dp"
+            android:layout_height="49dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="46dp" tools:text="Fagkveld"/>
 
     <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="time"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="141dp" />
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="time"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="141dp" android:textAlignment="center" tools:text="19.00-21.00"/>
 
     <EditText
-        android:id="@+id/editText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPostalAddress"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="187dp" />
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPostalAddress"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="187dp" android:textAlignment="center" tools:text="HQ"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -72,4 +72,8 @@
         app:srcCompat="@android:drawable/ic_menu_directions"
         tools:layout_editor_absoluteX="112dp"
         tools:layout_editor_absoluteY="187dp" />
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@android:drawable/ic_menu_my_calendar"
+            tools:layout_editor_absoluteY="95dp" tools:layout_editor_absoluteX="112dp" android:id="@+id/imageView4"/>
 </android.support.constraint.ConstraintLayout>
