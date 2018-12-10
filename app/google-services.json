@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1078613578872",
+    "firebase_url": "https://ncskjera-4b387.firebaseio.com",
+    "project_id": "ncskjera-4b387",
+    "storage_bucket": "ncskjera-4b387.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078613578872:android:810330378f0b9f2e",
+        "android_client_info": {
+          "package_name": "no.netcompany.ncskjera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078613578872-f02agna608ht9je83mg40f3mjkl563oc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGYXJ4EiVRPgWuQe4p9pK4iu0Zeala7As"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
